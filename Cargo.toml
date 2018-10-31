@@ -1,0 +1,13 @@
+[package]
+authors = ["Fredrik Portström <fredrik@portstrom.com>"]
+description = "Parse dictionary pages from the German language edition of Wiktionary into structured data"
+license-file = "LICENSE"
+name = "parse_wiktionary_de"
+readme = "readme.md"
+repository = "https://github.com/portstrom/parse_wiktionary_de"
+version = "0.1.0"
+
+[dependencies]
+parse_wiki_text = "0.1"
+serde = "1"
+serde_derive = "1"
